@@ -14,6 +14,7 @@
 		FF9366031EF300EF00AFB1C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9366021EF300EF00AFB1C2 /* Assets.xcassets */; };
 		FF9366061EF300EF00AFB1C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9366041EF300EF00AFB1C2 /* LaunchScreen.storyboard */; };
 		FF9366111EF300EF00AFB1C2 /* WavyCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9366101EF300EF00AFB1C2 /* WavyCollectionTests.m */; };
+		FF93661D1EF3047400AFB1C2 /* WavyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FF93661C1EF3047400AFB1C2 /* WavyFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FF93660C1EF300EF00AFB1C2 /* WavyCollectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WavyCollectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9366101EF300EF00AFB1C2 /* WavyCollectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WavyCollectionTests.m; sourceTree = "<group>"; };
 		FF9366121EF300EF00AFB1C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF93661B1EF3047400AFB1C2 /* WavyFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavyFlowLayout.h; sourceTree = "<group>"; };
+		FF93661C1EF3047400AFB1C2 /* WavyFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavyFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +88,9 @@
 				FF9365FA1EF300EF00AFB1C2 /* AppDelegate.m */,
 				FF9365FC1EF300EF00AFB1C2 /* ViewController.h */,
 				FF9365FD1EF300EF00AFB1C2 /* ViewController.m */,
+				FF93661B1EF3047400AFB1C2 /* WavyFlowLayout.h */,
+				FF93661C1EF3047400AFB1C2 /* WavyFlowLayout.m */,
 				FF9365FF1EF300EF00AFB1C2 /* Main.storyboard */,
-				FF9366021EF300EF00AFB1C2 /* Assets.xcassets */,
-				FF9366041EF300EF00AFB1C2 /* LaunchScreen.storyboard */,
-				FF9366071EF300EF00AFB1C2 /* Info.plist */,
 				FF9365F61EF300EF00AFB1C2 /* Supporting Files */,
 			);
 			path = WavyCollection;
@@ -97,6 +99,9 @@
 		FF9365F61EF300EF00AFB1C2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF9366021EF300EF00AFB1C2 /* Assets.xcassets */,
+				FF9366041EF300EF00AFB1C2 /* LaunchScreen.storyboard */,
+				FF9366071EF300EF00AFB1C2 /* Info.plist */,
 				FF9365F71EF300EF00AFB1C2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -215,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF93661D1EF3047400AFB1C2 /* WavyFlowLayout.m in Sources */,
 				FF9365FE1EF300EF00AFB1C2 /* ViewController.m in Sources */,
 				FF9365FB1EF300EF00AFB1C2 /* AppDelegate.m in Sources */,
 				FF9365F81EF300EF00AFB1C2 /* main.m in Sources */,

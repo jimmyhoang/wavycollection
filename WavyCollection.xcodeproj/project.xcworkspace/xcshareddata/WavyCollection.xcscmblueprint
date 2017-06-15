@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A5294C60475EB0B0DE9384DD003B6E2252A9D615",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3C4A92DDC0D4B8043683D5AE502B578294D78D08" : 9223372036854775807,
+    "A5294C60475EB0B0DE9384DD003B6E2252A9D615" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BDA894E4-0A1A-48F1-A9CB-5C43CF55493F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3C4A92DDC0D4B8043683D5AE502B578294D78D08" : "",
+    "A5294C60475EB0B0DE9384DD003B6E2252A9D615" : "WavyCollection\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WavyCollection",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WavyCollection.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jimmyhoang\/lighthouselabs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3C4A92DDC0D4B8043683D5AE502B578294D78D08"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jimmyhoang\/wavycollection.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A5294C60475EB0B0DE9384DD003B6E2252A9D615"
+    }
+  ]
+}
