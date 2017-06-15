@@ -28,7 +28,6 @@
     
     for (int i = 0;i < numberOfCells;i++) {
         NSIndexPath* indexPath = [NSIndexPath indexPathForItem:i inSection:0];
-        
         UICollectionViewLayoutAttributes *attributes = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
         
         CGFloat randomY = arc4random_uniform([UIScreen mainScreen].bounds.size.height - 100);
