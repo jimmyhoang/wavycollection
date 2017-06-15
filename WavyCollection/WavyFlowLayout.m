@@ -31,10 +31,11 @@
         
         UICollectionViewLayoutAttributes *attributes = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
         
-        int randomY = arc4random_uniform([UIScreen mainScreen].bounds.size.height - 100);
-        int x = (100 + 10) * (i % 10);
+        CGFloat randomY = arc4random_uniform([UIScreen mainScreen].bounds.size.height - 100);
+        CGFloat x = (100 + 10) * (i % 10);
+        CGFloat height = self.itemSize.height + (randomY * .5);
         
-        attributes.frame = CGRectMake(x, randomY, 100, 50);
+        attributes.frame = CGRectMake(x, randomY, 100, height);
         
         [layoutAttributes addObject:attributes];
     }
